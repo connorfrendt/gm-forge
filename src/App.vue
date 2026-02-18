@@ -1,11 +1,12 @@
 <template>
-    <Auth></Auth>
-    <HomePage></HomePage>
+    <!-- <Auth></Auth>
+    <HomePage></HomePage> -->
+    <router-view />
 </template>
 
 <script setup>
-import HomePage from './components/HomePage.vue';
-import Auth from './components/Auth.vue';
+// import HomePage from './components/HomePage.vue';
+// import Auth from './components/Auth.vue';
 </script>
 
 <style scoped>

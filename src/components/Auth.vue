@@ -1,10 +1,25 @@
 <template>
     <div>
-        <header class="header">
-            <div class="signup-signin auth">Sign Up</div>
-            <div class="signup-signin">|</div>
-            <div class="signup-signin auth">Sign In</div>
-        </header>        
+        <div class="auth-wrapper">
+            <div>
+                <div>Sign Up</div>
+                <div>Name</div>
+                <input />
+                <div>Email</div>
+                <input />
+                <div>Password</div>
+                <input type="password" />
+                <div>Confirm Password</div>
+                <input type="password" />
+            </div>
+            <div>
+                <div>Log In</div>
+                <div>Email</div>
+                <input />
+                <div>Password</div>
+                <input type="password" />
+            </div>
+        </div>
     </div>
 </template>
 
