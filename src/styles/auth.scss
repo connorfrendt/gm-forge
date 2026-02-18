@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    justify-content: right;
+
+    .signup-signin {
+        padding: 10px;
+    }
+
+    .auth {
+        background-color: gray;
+    }
+
+    .auth:hover {
+        cursor: pointer;
+    }
+    .auth:active {
+        background-color: orange;
+        color: black;
+    }
+}
